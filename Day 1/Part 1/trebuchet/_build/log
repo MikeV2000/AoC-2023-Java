@@ -1,0 +1,24 @@
+# dune exec trebuchet
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/moik/.cache/dune/db
+# Workspace root: "/home/moik/Projects/OCaml/AdventOfCode/2023/Day 1/Part
+# 1/trebuchet"
+# Auto-detected concurrency: 12
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/moik/Projects/OCaml/AdventOfCode/2023/Day 1/Part 1/trebuchet/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /home/moik/.opam/default/bin/ocamlc.opt -config > /tmp/dune_4c24ee_output

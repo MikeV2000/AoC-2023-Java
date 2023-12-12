@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/trebuchet/META"
+  "_build/install/default/lib/trebuchet/dune-package"
+  "_build/install/default/lib/trebuchet/opam"
+]
+bin: [
+  "_build/install/default/bin/trebuchet"
+]
