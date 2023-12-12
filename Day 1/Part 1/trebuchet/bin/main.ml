@@ -15,10 +15,11 @@ let rec get_num_as_string str index exit_predicate change_index =
   if exit_predicate index str then
     ""
   else
-    let c = str.[index] in
+    try let c = str.[index] in
     match c with
     | '0' .. '9' -> Printf.sprintf "%c" c
     | _ -> get_num_as_string str (change_index index) exit_predicate change_index
+    with Failure _ -> ""
 
 let safe_int_of_string str =
   try int_of_string str
